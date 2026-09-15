@@ -1,0 +1,6 @@
+reflex>=0.9.11
+reflex-assistant-ui
+
+# The demo talks to the model through LangChain.
+langchain-core>=1.0
+langchain-ollama>=1.0
