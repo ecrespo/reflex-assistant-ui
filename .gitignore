@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# reflex-assistant-ui
+.web/
+.states/
+assets/external/
+reflex.db
+Claude outputs/
+
+# IDEs
+.idea/
+.vscode/
