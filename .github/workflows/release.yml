@@ -1,6 +1,6 @@
 name: Release
 
-# Push a tag like `v0.1.0` on main to build, publish to PyPI and create the
+# Push a tag like `v0.2.0` on main to build, publish to PyPI and create the
 # GitHub release. PyPI uses Trusted Publishing (OIDC), so no API token is stored.
 
 on:
