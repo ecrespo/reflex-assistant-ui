@@ -315,7 +315,7 @@ raise `stream_interval` so fewer deltas cross the wire.
 
 ## Requirements
 
-Python 3.10+, Reflex 0.9.11+.
+Python 3.11+, Reflex 0.10.0+ (Reflex 0.10 itself requires Python 3.11 or newer).
 
 ## Development
 
@@ -327,7 +327,7 @@ uvx ruff check . && uvx ruff format --check custom_components assistant_ui_demo 
 
 GitHub Actions run on every push and pull request to `develop` and `main`:
 
-* **Quality** — ruff lint and format, pytest on Python 3.10–3.13, sdist/wheel
+* **Quality** — ruff lint and format, pytest on Python 3.11–3.13, sdist/wheel
   build with `twine check`, and a production build of the demo app.
 * **Security** — gitleaks, bandit, semgrep, pip-audit, dependency review and
   CodeQL (Python and JavaScript), plus a weekly scheduled run.
@@ -339,7 +339,7 @@ GitHub Actions run on every push and pull request to `develop` and `main`:
 2. Tag the merge commit and push the tag:
 
    ```bash
-   git tag v0.1.0 && git push origin v0.1.0
+   git tag v0.2.0 && git push origin v0.2.0
    ```
 
 The **Release** workflow re-runs quality and security checks, verifies that the

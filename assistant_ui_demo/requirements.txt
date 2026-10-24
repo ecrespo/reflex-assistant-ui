@@ -1,4 +1,4 @@
-reflex>=0.9.11
+reflex>=0.10.0
 reflex-assistant-ui
 
 # The demo talks to the model through LangChain.
